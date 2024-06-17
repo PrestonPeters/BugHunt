@@ -1,0 +1,73 @@
+.ViewPostBox {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    min-width: 540px;
+    box-sizing: border-box;
+}
+
+.ViewPostBox button:hover {
+    cursor: pointer;
+}
+
+.DeleteUser {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+.BackToChannel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: fit-content;
+    height: 40px;
+    font-size: 25px;
+    align-self: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.ViewPostUpper {
+    height: fit-content;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.ViewPostHeading {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ViewPostUpper h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.ViewPostHeading p {
+    font-size: 1.3em;
+}
+
+.ViewPostUpper p {
+    font-size: 1.3em;
+}

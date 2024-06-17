@@ -1,0 +1,29 @@
+.LoginWarning {
+    width: 600px;
+    height: fit-content;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: calc(50vw - 300px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 3px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    line-height: 0;
+    animation: instantiate 0.25s ease-in-out;
+}
+
+.LoginWarning h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 2em;
+}
+
+@keyframes instantiate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

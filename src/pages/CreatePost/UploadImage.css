@@ -1,0 +1,19 @@
+.UploadImageBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HorizontalImageRemove {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HorizontalImageRemove p {
+    margin: 0 !important;
+    margin-left: 10px !important;
+    font-size: 1.0em !important;
+}

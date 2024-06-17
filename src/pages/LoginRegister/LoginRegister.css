@@ -1,0 +1,166 @@
+.LogRegBox {
+    position: absolute;
+    top: 85px;
+    left: calc(max(100vw - 553px, 1000px - 553px));
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: none none solid solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0px 0px 0px 10px;
+    z-index: 100;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.LogOuterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RegOuterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LogRegBox h1 {
+    font-size: 2.25em; 
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    padding: 0;
+    color: black;
+}
+
+.LogRegBox h2 {
+    font-size: 1.8em; 
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+
+.LogRegBox input {
+    width: 100%;
+    height: 1.5em;
+    font-size: 1em; 
+    padding: 0; 
+    color: black;
+}
+
+.LogRegBox button {
+    width: 50%;
+    height: 1.5em;
+    font-size: 1.2em; 
+    font-weight: bold;
+    padding: 0; 
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+}
+
+.LogRegBox label {
+    font-size: 1.3em;
+    padding: 0; 
+    color: black;
+}
+
+.LogRegBox button:hover {
+    background-color: #dbdbdb;
+}
+
+.LogRegInnerBox {
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LogInnerBox {
+    width: 275px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid grey;
+}
+
+.LogForm {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.LogHead {
+    text-align: center;
+    height: 2.0em;
+}
+
+.LogHead h2 {
+    margin: 0;
+}
+
+.RegForm {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.RegHead {
+    text-align: center;
+    height: 2.0em;
+}
+
+.RegHead h2 {
+    margin: 0;
+}
+
+.ButtonDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RegInnerBox {
+    width: 275px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1px solid grey;
+}
+
+.Error {
+    color: #941b27;
+    font-size: 1.05em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.Account {
+    font-size: 2em; 
+    font-weight: bold; 
+    background: none;
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+    color: #dbdbdb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Account:hover {
+    text-decoration: none;
+    color: white;
+}

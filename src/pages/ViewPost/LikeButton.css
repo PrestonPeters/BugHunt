@@ -1,0 +1,114 @@
+.DislikeButtonInnerRed {
+    height: 100%;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: lightcoral;
+}
+
+.LikeCount {
+    width: fit-content;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #dbdbdb;
+    box-sizing: border-box;
+}
+
+.LikeCountGreen {
+    width: fit-content;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #dbdbdb;
+    color: green;
+    box-sizing: border-box;
+}
+
+.LikeCountRed {
+    width: fit-content;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #dbdbdb;
+    color: red;
+    box-sizing: border-box;
+}
+
+.DislikeButtonInner {
+    height: 100%;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.LikeButtonRed {
+    margin-top: -5px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.LikeButtonInnerGreen {
+    height: 100%;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: lightgreen;
+}
+
+.LikeButtonInner {
+    height: 100%;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.LikeButtonGreen {
+    margin-top: -5px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.LikeButtonRed {
+    margin-top: -5px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.LikeButtonInnerGreen {
+    height: 100%;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: lightgreen;
+}
+
+.LikeButton {
+    margin-top: -5px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid grey;
+}

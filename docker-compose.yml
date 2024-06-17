@@ -1,0 +1,29 @@
+version: '3'
+services:
+  server:
+    build:
+      context: ./src/server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Map port 3000 in the container to port 3000 on the host
+    depends_on:
+      - server
+
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: CMPT353
+      MYSQL_DATABASE: BugHunt
+      MYSQL_USER: main
+      MYSQL_PASSWORD: CMPT353
+    ports:
+      - "3306:3306"

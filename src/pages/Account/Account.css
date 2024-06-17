@@ -1,0 +1,49 @@
+.AccountPage {
+    position: fixed;
+    top: 85px;
+    left: calc(max(100vw - 553px, 1000px - 553px));
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-style: none none solid solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0px 0px 0px 10px;
+    z-index: 100;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.AccountPage h1 {
+    font-size: 2.25em; 
+    font-weight: bold;
+    border-bottom: 2px solid grey;
+    padding: 0;
+    color: black;
+}
+
+.AccountPage h2 {
+    font-size: 1.8em; 
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+
+.Logout {
+    width: 40%;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.Logout:hover {
+    background-color: #ff0000;
+    color: white;
+}

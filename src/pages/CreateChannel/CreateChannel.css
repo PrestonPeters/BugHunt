@@ -1,0 +1,58 @@
+.CreateChannelForm {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.CreateChannelHead h1 {
+    width: 250px;
+}
+
+.ChannelTitleLabel {
+    font-size: 1.5em;
+}
+
+.ChannelTitle {
+    font-size: 1.3em;
+    min-width: 540px;
+    max-width: 540px;
+}
+
+.ChannelFlag {
+    font-size: 1.3em;
+    min-width: 540px;
+    max-width: 540px;
+    color: red;
+}
+
+.ChannelDescriptionLabel {
+    font-size: 1.4em;
+}
+
+.ChannelDesc {
+    padding-top: 0%;
+    height: 300px;
+    min-width: 540px;
+    max-width: 875px;
+    width: 50vw;
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    resize: none;
+}
+
+.SubmitCreateChannel {
+    min-width: 200px;
+    font-size: 1.6em;
+    height: 40px;
+    width: 40%;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.SubmitCreateChannel:hover {
+    background-color: #dbdbdb;
+}

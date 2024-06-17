@@ -1,0 +1,81 @@
+.CreatePostForm {
+    min-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.CreatePostHead h1 {
+    width: 250px;
+}
+
+.PostTopicLabel {
+    font-size: 1.5em;
+}
+
+.CreatePostTopic {
+    font-size: 1.3em;
+    min-width: 540px;
+    max-width: 950px;
+}
+
+.PostDataLabel {
+    font-size: 1.4em;
+}
+
+.PostFlag {
+    font-size: 1.3em;
+    min-width: 540px;
+    max-width: 540px;
+    height: fit-content;
+    color: red;
+}
+
+.CreatePostData {
+    padding-top: 0%;
+    height: 480px;
+    min-width: 540px;
+    max-width: 950px;
+    width: 60vw;
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: auto;
+    resize: none;
+}
+
+.CreatePostButtonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.UploadImage {
+    min-width: 200px;
+    font-size: 1.6em;
+    height: 40px;
+    width: 40%;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.UploadImage:hover {
+    background-color: #dbdbdb;
+}
+
+.SubmitCreatePost {
+    min-width: 200px;
+    font-size: 1.6em;
+    height: 40px;
+    width: 40%;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.SubmitCreatePost:hover {
+    background-color: #dbdbdb;
+}
