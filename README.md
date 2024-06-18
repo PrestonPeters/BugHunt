@@ -22,13 +22,13 @@
 
 ## Running Instructions
 
-   1. Clone the repository to your desired directory by navigating to your desired directory via the command line. Then, run the below command to clone the repo:
+   1. Clone the repository to your desired directory by navigating to your desired directory via the command line. Then, run the following command to clone the repo:
          git clone https://github.com/PrestonPeters/BugHunt.git
-   2. Open the Docker Desktop app or, if using a Linux or Ubuntu system, run the below command to start the Docker Daemon:
+   2. Open the Docker Desktop app or, if using a Linux or Ubuntu system, run the following command to start the Docker Daemon:
          sudo systemctl start docker
-   3. Once the Docker Daemon is running, navigate to the cloned directory and run the below command to start the React app, Node.js server, and MySQL database:
+   3. Once the Docker Daemon is running, navigate to the cloned directory and run the following command to start the React app, Node.js server, and MySQL database:
          docker-compose up --build
-   4. Once this has completed, navigate to a browser and enter the below URL to access the site:
+   4. Once this has completed, navigate to a browser and enter the following URL to access the site:
          localhost:3000
    5. The website will open at this point and you can either login with the inbuilt admin account (username and password both admin) or create your own account
       to experiment with the website.
