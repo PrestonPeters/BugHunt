@@ -17,7 +17,6 @@
 
 ## Prerequisites:
    Docker Desktop must be installed in order to run this application. To install, perform the following steps:
-   
       1. Navigate to https://www.docker.com/products/docker-desktop/ and download the Docker Desktop application
       2. Run the install application following the install instructions
 
