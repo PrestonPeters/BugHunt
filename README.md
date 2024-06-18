@@ -33,7 +33,7 @@
    5. The website will open at this point and you can either login with the inbuilt admin account (username and password both admin) or create your own account
       to experiment with the website.
    6. Once you are finished with the website, you can shut it down by pressing CTRL+C
-   7. To get rid of all of the containers and images built in the process, you can use the command:
+   7. To get rid of all of the containers built in the process, you can use the command:
          docker-compose down -v
 
 
