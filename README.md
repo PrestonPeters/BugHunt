@@ -23,7 +23,7 @@
 ## Running Instructions
 
    1. Clone the repository to your desired directory by navigating to your desired directory via the command line. Then, run the below command to clone the repo:
-      
+         git clone https://github.com/PrestonPeters/BugHunt.git
    2. Open the Docker Desktop app or, if using a Linux or Ubuntu system, run the below command to start the Docker Daemon:
          sudo systemctl start docker
    3. Once the Docker Daemon is running, navigate to the cloned directory and run the below command to start the React app, Node.js server, and MySQL database:
