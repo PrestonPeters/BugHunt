@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+This is one of my projects from my CMPT353 (Full Stack Web Programming) class where I was required to make a sort of simplified StackOverflow clone
+where users can create accounts in order to create channels and posts and peruse other people's channels and posts in order to get help with their
+own coding problems and attempt to help people solve their own.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this project, I used a Node.js server for queries from the client to the database to populate the site, a MySQL database for the actual data
+storage, and a React app for the HTML, and Javascript that present the actual website. 
 
-## Available Scripts
+To compose everything into one package, I recommend using Docker as there are Dockerfiles included in the package and also a docker-compose.yml file
+so running the React app, its server, and database is as simple as following the below steps:
 
-In the project directory, you can run:
+1. Clone the repository to your desired directory.
+2. If you do not already have Docker Desktop installed, navigate to https://www.docker.com/products/docker-desktop/ and follow the install instructions.
+3. Once Docker Desktop has been installed, either open the desktop app or run the below command to start the Docker Daemon:
+   - sudo systemctl start docker
+4. Once the Docker Daemon is running, navigate to the cloned directory and run the below command to start the React app, Node.js server, and MySQL database:
+   - docker-compose up --build
+5. Once this has completed, navigate to a browser and enter the below URL to access the site:
+   - localhost:3000
+6. The website will open at this point and you can either login with the inbuilt admin account (username and password both admin) or create your own account
+   to experiment with the website.
 
-### `npm start`
+Every time that the package is built, it initializes a clean database with no channels and the only account being the admin account. Administrators, per the
+assignment description, can delete channels, posts, and users on top of being able to create channels and posts themselves. Posts and channels can be sorted
+by various means and posts themselves can be replied to and these replies can nest and be visualized. Posts and replies can also be liked or disliked which
+contributes to a user's overall rank on the website. The server and database will also stay persistent so long as the Docker containers are not deleted.
+Users can also attach images to their posts and in their replies as well. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website is a very simple prototype project that is very roughly formatted to be functional, familiar, and easy to use, but looks were not a high priority 
+in creating this assignment.
