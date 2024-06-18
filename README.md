@@ -27,3 +27,8 @@ Users can also attach images to their posts and in their replies as well.
 
 The website is a very simple prototype project that is very roughly formatted to be functional, familiar, and easy to use, but looks were not a high priority 
 in creating this assignment.
+
+PLEASE NOTE:
+The project, as configured, will require the use of local network ports 3000 (for the React App), 3306 (for the MySQL database), and 8080 (for the Node.js server).
+If this is in conflict with your port configurations, go into the docker-compose.yml and reconfigure the port numbers for the React App, MySQL database, and the
+Node.js server as needed.
